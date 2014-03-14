@@ -1,3 +1,4 @@
+/* global app:true */
 'use strict';
 
 var app = angular.module('tangleApp', [
@@ -5,8 +6,8 @@ var app = angular.module('tangleApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute'
-])
-  app.config(function ($routeProvider) {
+]);
+app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
