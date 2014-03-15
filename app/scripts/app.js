@@ -1,6 +1,5 @@
 /* global app:true */
 'use strict';
-
 var app = angular.module('tangleApp', [
   'ngCookies',
   'ngResource',
@@ -10,8 +9,8 @@ var app = angular.module('tangleApp', [
 app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/posts.html',
+        controller: 'PostsCtrl'
       })
       .otherwise({
         redirectTo: '/'

@@ -17,9 +17,9 @@
   "unused": true,
   "strict": true,
   "trailing": true,
-  "app": false,
   "smarttabs": true,
   "globals": {
+  	"app": false,
     "angular": false
   }
 }
