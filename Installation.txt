@@ -1,0 +1,5 @@
+npm install grunt-contrib-jshint
+	{fixes .jshint complaining about 'add'	}
+
+bower install angularfire --save
+	{connect angular firebase server power}
